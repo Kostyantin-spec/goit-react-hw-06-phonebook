@@ -19,7 +19,6 @@ const phoneContactsSlice = createSlice(
         reducers: {
             addContact: {
                 reducer: (state, action) => {
-                    // state.items = [...state.items, action.payload];
                     state.items.push(action.payload)
                 },
             },

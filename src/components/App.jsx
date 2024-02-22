@@ -8,7 +8,7 @@ import { ContactList } from './ContactList/ContactList';
 export const App = () => {
   const contacts = useSelector(getContacts);
   return (
-    <div >
+    <div>
       <h1>Phonebook</h1>
 
       <ContactForm />
